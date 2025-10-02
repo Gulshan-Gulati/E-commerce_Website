@@ -1,0 +1,64 @@
+.latest-page {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f8f9fa;
+}
+
+.latest-page h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.latest-page p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.collection-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+}
+
+.collection-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.collection-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.collection-card p {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.collection-card button {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.collection-card button:hover {
+  background: #e63939;
+}
